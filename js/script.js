@@ -160,8 +160,8 @@ function next() {
         $(".question").hide();
         $(".result").show();
         var track = "";
-        ($("#EI").val() < 2) ? track += "I": track += "E";
-        ($("#SN").val() < 2) ? track += "N": track += "S";
+        ($("#EI").val() < 3) ? track += "I": track += "E";
+        ($("#SN").val() < 3) ? track += "N": track += "S";
 
 
         $("#re_img").attr("src", result[track]["img"]);
